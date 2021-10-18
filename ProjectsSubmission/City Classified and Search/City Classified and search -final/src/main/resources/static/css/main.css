@@ -1,0 +1,14 @@
+body {
+  background-image: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.index-image-parent {
+  max-width: 220px;
+}
+
+.index-image {
+  width: 100%;
+  height: auto;
+}
