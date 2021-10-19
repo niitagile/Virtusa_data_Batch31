@@ -1,0 +1,54 @@
+header{
+    background:url("online-pharmacy.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+}
+#image-text{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    color: #000;
+    transform: translate(-70%, -40%);
+    text-align: center;
+}
+button{
+    margin: 5px;
+}
+
+#about-us{
+    margin-top: 40px;   
+}
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section .card{
+    text-align: center;
+    box-shadow: 11px 7px 16px #f9f9f9;
+}
+
+section .icons{
+    width: 318px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#contact {
+    text-align: center;
+    background-color: #3949ab;
+    color: white;
+  }
+  #contact h1 {
+    text-align: center;
+    color: white;
+  }
+@media screen and (max-width:670px) {
+    header{
+        min-height: 500px;
+    }
+    .card{
+        margin: 10px;
+    }
+}

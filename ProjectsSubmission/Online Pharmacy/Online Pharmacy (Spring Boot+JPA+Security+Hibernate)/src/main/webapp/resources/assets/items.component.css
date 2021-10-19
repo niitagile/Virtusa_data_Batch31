@@ -1,0 +1,24 @@
+body { background-color: #e8eaf6 !important;}
+.container{
+    border-radius: 5px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.container .choose-block{
+    width: 25rem;
+}
+label{
+    font-weight: bold;
+    color: #6174f0;
+}
+.form-floating{
+    margin: 15px;
+}
+
+@media screen and (max-width:670px) {
+    .container .choose-block{
+        width: 25rem;
+    }
+}    

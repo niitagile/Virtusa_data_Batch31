@@ -1,0 +1,35 @@
+body { background-color: #e8eaf6 !important;}
+.container{
+    margin-top: 80px; 
+    position:absolute;
+}    
+
+.container .heading{
+    margin-left: 50%;
+}
+.left-card{
+    width: 18rem;
+    height: 10rem;
+}
+.right-card{
+    width: 50rem;
+    height: 10rem;
+}
+label{
+    font-weight: bold;
+    color: #6174f0;
+}
+
+@media screen and (max-width:670px) {
+    .container{
+        position: none;
+    }
+    .right-card{
+        width: 30rem;
+        margin-left: 0%;
+       right: 25%;
+    }
+    .container .heading{
+        margin-left: 0%;
+    }
+}
