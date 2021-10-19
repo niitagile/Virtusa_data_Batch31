@@ -1,0 +1,19 @@
+body { background-color: #e8eaf6 !important;}
+.container{
+    margin-top: 70px;
+    position:absolute;
+    left:15%;
+}
+
+.container .card{
+    width: 75%;
+}
+@media screen and (max-width:750px) {
+    .container{
+        position: none;
+        left:0%;
+    }
+    .container .card{
+        width: 25rem;
+    }
+}
