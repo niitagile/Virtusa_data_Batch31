@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Branch Details</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4" id="branchName"></h1>
+            <p class="lead" id="branchAddress"></p>
+            <a href="#" id="edit-branch-btn" class="btn btn-info" role="button">Edit branch</a>
+            <a href="#" id="view-students-btn" class="btn btn-primary" role="button">View Students</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Accountants</h2>
+        <a href="#" id="add-accountant-btn" class="btn btn-success" role="button">Add New Accountant</a>
+        <br><br>
+        <ul class="list-group" id="accountants"></ul>
+    </div>
+   
+
+    <script src="./js/branchDetails.js"></script>
+</body>
+
+</html>
