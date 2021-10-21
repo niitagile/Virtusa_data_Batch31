@@ -1,0 +1,36 @@
+{
+    "name": "English",
+    "signIn": {
+        "username": "Username",
+        "password": "Password",
+        "signInButton" :"sign in",
+        "goToSignUp": "Don't have an account? Sign Up",
+        "contact": "Contact"
+    },
+    "signUp": {
+        "title": "Sign up",
+        "nickname": "Nickname",
+        "password": "Password",
+        "signUpButton" :"sign up",
+        "goToSignIn": "Already have an account? Sign in",
+        "contact": "Contact"
+    },
+    "chat": {
+        "languageIndicator": "Language",
+        "panels": {
+            "createChatroom": {
+                "name": "Create Chatroom",
+                "promptText": "the new chatroom will be..."
+            },
+            "joinChatroom": {
+                "name": "Join Chatroom",
+                "promptText": "chatroom id goes here..."
+            },
+            "newFriend": {
+                "name": "New Friend",
+                "promptText": "add a new friend..."
+            } 
+        },
+        "sendButton": "send"
+    }
+}
