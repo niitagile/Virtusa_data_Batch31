@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+* { box-sizing: border-box; }
+
+html { height: 100%; }
+
+body {
+  height: 100%;
+
+  font-weight: 300;
+  background-color: #f5f6f7;
+}
+
+
+/* Form element setup */
+form {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 300px;
+  transform: translateX(-50%);
+  margin: 2rem 0;
+  z-index: 1;
+}
+
+fieldset {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  border: none;
+}
+
+legend {
+  font-weight: 400;
+}
+
+legend,
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+input[type='text']{
+  display: block;
+  padding: .5rem;
+  width: 100%;
+  background-color: white;
+  border-radius: .25rem;
+  border: 1px solid #e5e5e5;
+  outline: none;
+   height: 34px;
+      
+  /* List some properties that might change */
+  transition-property: none;
+  transition-duration: none;  
+  
+}
+
+
+
+
+
+input[type='radio'] {
+  border-radius: 50%;
+  
+}
+
+
+
+button {
+  display: block;
+  margin: 3em auto;
+  padding: .5rem 2rem;
+  font-size: 125%;
+  color: white;
+  border: none;
+  border-radius: .25rem;
+  background-color: rgb(239,126,173);
+  outline: none;
+  box-shadow: 0 .4rem .1rem -.3rem rgba(0,0,0,.1);
+
+  /* We'll talk about this next */
+  transform: perspective(300px) scale(.95) translateZ(0);
+  transform-style: preserve-3d;
+
+  /* List the properties that you're looking to transition.
+     Try not to use 'all' */
+  transition-property: none;
+
+  /* This applies to all of the above properties */
+  transition-duration: none;
+    
+ 
+}
