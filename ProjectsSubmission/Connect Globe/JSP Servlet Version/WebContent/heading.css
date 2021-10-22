@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+.blue-background {
+    background-color: rgb(204,255,255);
+    
+}
+
+
+.imag{
+	border-radius:50%;
+	width:10%;
+	float: left;
+}

@@ -1,0 +1,36 @@
+{
+    "name": "नाम",
+    "signIn": {
+        "username": "उपयोगकर्ता नाम",
+        "password": "पासवर्ड",
+        "signInButton" :"साइन इन बटन",
+        "goToSignUp": "साइन अप करने के लिए जाओ",
+        "contact": "संपर्क"
+    },
+    "signUp": {
+        "title": "शीर्षक",
+        "nickname": "उपनाम",
+        "password": "पासवर्ड",
+        "signUpButton" :"साइन अप बटन",
+        "goToSignIn": "साइन इन करने के लिए जाओ",
+        "contact": "संपर्क"
+    },
+    "chat": {
+        "languageIndicator": "भाषा सूचक",
+        "panels": {
+            "createChatroom": {
+                "name": "नाम",
+                "promptText": "शीघ्र पाठ"
+            },
+            "joinChatroom": {
+                "name": "नाम",
+                "promptText": "शीघ्र पाठ"
+            },
+            "newFriend": {
+                "name": "नाम",
+                "promptText": "शीघ्र पाठ"
+            } 
+        },
+        "sendButton": "भेजें बटन"
+    }
+}
