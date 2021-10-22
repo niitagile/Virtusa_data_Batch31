@@ -1,23 +1,27 @@
-To run the frontend, you have to install and configure nginx on your system because we have used html, css and javascript for our frontend and not angular or react, that's why we had to create our own server with the help of nginx.
+To run the frontend, you have to install and configure nginx on your system.
+OR!! 
+You can also use docker, then you don't need to do any configuration. (Just go to the folder Team 7 Frontend Docker and follow the steps written in the readme file)
 
-And also, backend project should also be running on your system otherwise you will not be able to hit the apis from the frontend.
+And obviously, backend project should also be running on your system otherwise you will not be able to hit the apis from the frontend.
 
 Follow the below steps to install and configure nginx on your system:
 1. sudo apt update
 2. sudo apt install nginx
-3. cd /etc/nginx/sites-available
-4. sudo touch home
-5. sudo gedit home
-6. Paste the configuration given at the bottom of this file into home file
-7. sudo cp /etc/nginx/sites-available/home /etc/nginx/sites-enabled/
-8. systemctl restart nginx
-9. Go to browser and hit http://localhost:3001
+3. sudo rm /etc/nginx/sites-available/default
+4. sudo rm /etc/nginx/sites-enabled/default
+5. cd /etc/nginx/sites-available
+6. sudo touch home
+7. sudo gedit home
+8. Paste the configuration given at the bottom of this file into the editor
+9. sudo cp /etc/nginx/sites-available/home /etc/nginx/sites-enabled/
+10. systemctl restart nginx
+11. Go to browser and hit http://localhost:3001
 
 
 Configuration:
 server {
 	listen 3001;
-	root /home/ritik/Desktop/payment-billing-frontend;
+	root /home/ritik/Desktop/payment-billing-frontend (you have to change this path to where you have saved the project into your system);
 	index login.html;
 	
 	location /admin/ {

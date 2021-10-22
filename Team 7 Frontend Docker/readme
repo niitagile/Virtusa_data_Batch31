@@ -1,0 +1,6 @@
+Follow the steps to run the steps
+
+1) Open the terminal in the project directory
+2) docker build -t image-name .
+3) docker run -it -d --name container-name -p 3001:3001 image-name
+4) open the browser and type localhost:3001
