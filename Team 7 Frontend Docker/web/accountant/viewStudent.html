@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>View Students</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Student's Personal Details</h3>
+        <button type="button" class="btn btn-danger" id="edit-student-btn">Edit Details</button><br><br>
+        <p><b>Roll Number:</b> <span id="studentRollNumber"></span></p>
+        <p><b>Name:</b> <span id="studentName"></span></p>
+        <p><b>Email:</b> <span id="studentEmail"></span></p>
+        <p><b>Phone:</b> <span id="studentPhone"></span></p>
+        <p><b>Course:</b> <span id="studentCourse"></span></p>
+    </div>
+
+
+
+    <div class="container">
+        <h3>Student's Payment Details</h3>
+        <button type="button" class="btn btn-primary" id="add-payment-btn">Add Payment Detail</button>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody id="payment-details-container"></tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h2>Fee Due: <span id="fee-due"></span></h4>
+    </div>
+
+    <script src="./js/viewStudent.js"></script>
+</body>
+
+</html>
